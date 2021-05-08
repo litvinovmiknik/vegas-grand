@@ -519,14 +519,11 @@ table {
 }
 
 .tabs__watch {
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 26px;
     position: absolute;
-    top: 28px;
+    top: 33px;
     right: 16px;
-    background-image: url(../images/watch_off.png);
-    background-repeat: no-repeat;
-    background-position: center;
     cursor: pointer;
 }
 

@@ -200,10 +200,10 @@
 
                 if (type === 'text') {
                     input.attr('type', 'password');
-                    $(this).css('background-image', 'url(/assets/images/watch_off.png)');
+                    $(this).attr('src', 'assets/images/watch_off.png');
                 } else if (type === 'password') {
                     input.attr('type', 'text');
-                    $(this).css('background-image', 'url(/assets/images/watch_on.png)');
+                    $(this).attr('src', 'assets/images/watch_on.png');
                 }
             });
             $('.features__btn').on('click', function() {
