@@ -340,7 +340,7 @@ table {
 
 .popup__container {
     width: 490px;
-    height: 630px;
+    max-height: 630px;
     padding: 56px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -769,7 +769,7 @@ table {
     .popup__container {
         width: 286px;
         padding: 20px;
-        height: 400px;
+        max-height: 400px;
         top: 150px !important;
     }
 
