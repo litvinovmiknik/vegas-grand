@@ -171,10 +171,13 @@ table {
     height: 491px;
     margin: 80px auto 80px;
     position: relative;
-    background-image: url(../images/features.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+}
+
+.features__bg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 20;
 }
 
 .features__win {
@@ -182,7 +185,7 @@ table {
     position: absolute;
     top: -147px;
     left: 44px;
-    z-index: 15;
+    z-index: 21;
 }
 
 .features__btn {
@@ -194,7 +197,7 @@ table {
     background-size: cover;
     background-position: center;
     position: absolute;
-    z-index: 15;
+    z-index: 23;
     bottom: -45px;
     left: 0;
     right: 0;
@@ -218,6 +221,7 @@ table {
     position: absolute;
     left: -33px;
     bottom: -145px;
+    z-index: 21;
 }
 
 .features__money1 {
@@ -238,6 +242,7 @@ table {
     position: absolute;
     top: 35px;
     left: -33px;
+    z-index: 21;
 }
 
 .features__diamond2 {
@@ -245,6 +250,7 @@ table {
     position: absolute;
     top: 83px;
     right: -77px;
+    z-index: 21;
 }
 
 .features__robin {
@@ -268,7 +274,7 @@ table {
     position: absolute;
     left: -320px;
     bottom: -160px;
-    z-index: 13;
+    z-index: 22;
 }
 
 .features__reactoonz {
@@ -276,7 +282,7 @@ table {
     position: absolute;
     left: -186px;
     top: -110px;
-    z-index: 12;
+    z-index: 21;
 }
 
 .features__firehead {
@@ -284,7 +290,7 @@ table {
     position: absolute;
     right: -705px;
     bottom: -125px;
-    z-index: 10;
+    z-index: 21;
 }
 
 .features__cowboy {
@@ -300,7 +306,7 @@ table {
     position: absolute;
     right: -181px;
     bottom: -100px;
-    z-index: 11;
+    z-index: 22;
 }
 
 .features__feya {
@@ -328,7 +334,7 @@ table {
     z-index: 30;
     top: 0;
     left: 0;
-    z-index: 20;
+    z-index: 30;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -673,7 +679,7 @@ table {
         width: 250px;
         height: 70px;
         font-size: 26px;
-        bottom: -90px;
+        bottom: -100px;
     }
 
     .features__blink {
@@ -700,9 +706,9 @@ table {
     }
 
     .features__diamond2 {
-        width: 60px;
-        top: 50px;
-        right: -40px;
+        width: 50px;
+        top: 75px;
+        right: -30px;
     }
 
     .features__robin {
@@ -721,7 +727,6 @@ table {
         width: 150px;
         left: -90px !important;
         bottom: -120px !important;
-        z-index: 11;
     }
 
     .features__reactoonz {
@@ -749,9 +754,9 @@ table {
     }
 
     .features__feya {
-        width: 60px;
-        right: -40px;
-        top: -130px;
+        width: 70px !important;
+        right: -40px !important;
+        top: -120px !important;
     }
 
     .features__bird {
@@ -765,6 +770,7 @@ table {
         width: 286px;
         padding: 20px;
         height: 400px;
+        top: 150px !important;
     }
 
     .popup__reg {
@@ -916,7 +922,6 @@ table {
     .features__reactoonz {
         top: 10px;
         left: -190px;
-        z-index: 12;
     }
 
     .features__firehead {
@@ -949,7 +954,7 @@ table {
     }
 
     .features__feya {
-        width: 100px;
+        width: 80px;
         right: -90px;
         top: -150px;
     }
