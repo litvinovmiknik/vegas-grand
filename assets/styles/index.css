@@ -749,7 +749,7 @@ table {
     .features__cowboy {
         width: 150px;
         right: -100px !important;
-        bottom: -20px;
+        bottom: 10px;
     }
 
     .features__inoplanet {
