@@ -544,6 +544,9 @@ table {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
 }
 
 .tabs__select {
@@ -585,6 +588,9 @@ table {
 }
 
 .tabs__bonus {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 225px;
     margin-left: 43px;
     margin-bottom: 20px;
 }
