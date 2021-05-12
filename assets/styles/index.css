@@ -155,8 +155,6 @@ table {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top center;
-    position: relative;
-    z-index: 5;
 }
 
 .welcome__text {
@@ -164,6 +162,8 @@ table {
     max-width: 753px;
     width: 100%;
     margin: 50px auto 20px;
+    position: relative;
+    z-index: 7;
 }
 
 .features {
@@ -314,6 +314,7 @@ table {
     position: absolute;
     right: -146px;
     top: -160px;
+    z-index: 6;
 }
 
 .features__bird {
@@ -321,6 +322,7 @@ table {
     position: absolute;
     right: -560px;
     top: -122px;
+    z-index: 6;
 }
 
 .popup {
@@ -655,9 +657,10 @@ table {
     margin-right: 4px;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 575px),
+(max-height: 767px) {
     .wrap {
-        background-position: center right -150px;
+        background-position: center right;
     }
 
     .welcome__text {
@@ -667,6 +670,8 @@ table {
     .features {
         width: 250px;
         height: 310px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .features__win {
@@ -935,6 +940,20 @@ table {
     .features__bird {
         right: -350px;
         top: -250px;
+    }
+}
+
+@media (max-width: 575px) {
+    .features {
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-height: 400px) {
+    .features {
+        margin-top: 80px !important;
+        margin-bottom: 100px !important;
     }
 }
 
