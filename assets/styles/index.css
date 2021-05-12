@@ -184,7 +184,7 @@ table {
     width: 379px;
     position: absolute;
     top: -147px;
-    left: 44px;
+    left: 54px;
     z-index: 21;
 }
 
@@ -676,8 +676,8 @@ table {
 
     .features__win {
         width: 220px;
-        top: -75px;
-        left: 26px;
+        top: -83px;
+        left: 36px;
     }
 
     .features__btn {
